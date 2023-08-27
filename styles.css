@@ -1,0 +1,260 @@
+/* Reset some default styles and apply a light green background */
+/* body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'poppins', sans-serif;
+  }
+
+  header {
+    
+    background-image: url('images/image1.jpeg');
+    filter: brightness(70%);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+
+  header h1 {
+    font-size: 85px;
+    margin-top: 180px;
+    font-weight: 500;
+  }
+  header p {
+    font-size: 20px;
+    margin: 0.5rem 0;
+  }
+
+  header a.cta {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 60px;
+    margin-top: 1rem;
+    transition: all 0.2s;
+  }
+
+  header a.cta:hover {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+   */
+   
+  /* Navigation bar styles */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 7%;
+    
+    /* background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  nav img {
+    
+    height: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+
+  }
+
+  section {
+    width: 80%;
+    text-align: center;
+    margin: 2rem;
+  }
+  section p {
+    font-size: 20px;
+    margin: 0.5rem 0;
+  }
+
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  section form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section input[type="text"],
+  section input[type="email"],
+  section textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+  }
+
+  section button[type="submit"] {
+    background-color: #00137e;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+  }
+
+  section button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+  }
+
+  footer {
+    background-color: #00137e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  footer a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+
+  #services {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  #services h2 {
+    margin-bottom: 5rem;
+  }
+
+  .service {
+    width: 30%;
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .service img {
+    width: 300px;
+    margin-bottom: 1rem;
+    border: 50%;
+  }
+
+  .services h3 {
+    margin-bottom: 1rem;
+  }
+
+  #About {
+    padding: 50px 10%;
+    line-height: 30px;
+  }
+
+  #About img {
+    margin-top: 50px;
+  }
+
+  #Contact {
+    padding: 50px 7%;
+    line-height: 30px;
+  }
+
+  #Contact h2 {
+    margin-bottom: 2rem;
+  }
+
+
+
+
+  /* nav li {
+    margin: 0 20px;
+  } */
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Other section styles (gallery, about, contact, reservation, footer) */
+  /* Add your section styles here */
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    /* Adjust section styles for smaller screens */
+  }
+  
